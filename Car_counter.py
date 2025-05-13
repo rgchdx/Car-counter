@@ -2,6 +2,7 @@ from ultralytics import YOLO
 import cv2
 import cvzone
 import math
+from sort import *
 
 
 cap = cv2.VideoCapture('/Users/rgdix/Desktop/object_detection/car_counter/Videos/cars.mp4')  # Load a video file
